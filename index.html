@@ -14,28 +14,11 @@
 		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
 		crossorigin="anonymous">
 	<style>
-		body {
-			margin-left: 20px;
-			padding-top: 60px;
-			padding-bottom: 40px;
-		}
-		label {
-			font-weight: normal;
-		}
-		table, th, td {
-			border: 1px solid black;
-		}
-		td, th {
-			padding: 10px;
-		}
-            .btn { margin: 5px }
-    </style>
-</head>
-<body>
-                  <audio id="soundboard" src="intro.mp3"></audio>
+		<body>
+                  <audio id="stavsoundboard" src="audio/StavSoundBoard.mp3"></audio>
 	<div class="container">
 		<div class="col-xs-12 col-sm-8">
-            <h2>Bonfire Drops</h2>
+            <h2>StavBot</h2>
 
             <button class="btn btn-primary btn-lg" onclick="Array.from(document.getElementsByTagName('audio')).forEach(function(e){e.pause(); e.currentTime=0;})">Silence</button>
 
@@ -44,6 +27,7 @@
                   <div id="root"></div>
 			<hr>
 		    <footer>
+
 				<p>Version 1.0, thanks for visiting!</p>
 		    </footer>
 		</div>
